@@ -13,3 +13,22 @@
   .jobs{
     font-style:italic;
   }
+
+  .position-date span{
+    display: inline-block;
+  }
+
+  .postion-date{
+    overflow: hidden;
+  }
+
+  .right{
+    float: right;
+  }
+
+  .left{
+    float:left;
+  }
+  .clear-all{
+    clear:both;
+  }
