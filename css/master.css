@@ -70,7 +70,7 @@ li a[class="dark-li"]:hover{
   transition: .3s;
   height: 300px;
   width: 250px;
-  border-radius: 30px;
+  border-radius: 8px;
   background-color: rgb(237, 174, 56);
   color: white;
   box-sizing: border-box;
