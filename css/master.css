@@ -21,8 +21,17 @@ body{
   background-color:rgb(177, 168, 177);
 }
 
+/* .nav-bar{
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+} */
+
 #banner{
-  position: inherit;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
   width: 100%;
   min-height: 60px;
   overflow: hidden;
@@ -30,10 +39,14 @@ body{
   padding-top: 50px;
   background: linear-gradient(to right,white, black );
   color: white;
+  transition:all 0.4s ease-in-out;
+-webkit-transition:all 0.4s ease-in-out;
+-moz-transition:all 0.4s ease-in-out;
 }
 
 img{
   width: 100%;
+  padding-top: 200px;
 }
 
 .nav-bar{
@@ -92,4 +105,11 @@ li a[class="dark-li"]:hover{
 
 .card {
   padding: 2px 16px;
+}
+
+.shrink{
+  text-align: center;
+  height: 20px;
+  padding-bottom: 5px;
+  font-size: 15px;
 }

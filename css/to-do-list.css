@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Nanum+Pen+Script|Kite+One');
+
+#to-do-list{
+  max-width: 1200px;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  margin-top: 100px;
+  background-color:white;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+button{
+  height:35px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: rgb(104, 142, 223);
+  font-size: 16px;
+  font-weight:bolder;
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(155, 37, 166);
+  transition: .5s;
+}
+
+input{
+  margin-left: 225px;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  height: 35px;
+  width: 150px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+h1, p, input{
+  text-align: center;
+}
+
+h1{
+  font-size: 38px;
+  font-family: 'Indie Flower';
+  padding-top: 50px;
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'nanum pen script';
+  font-size: 23px;
+}
+
+body{
+  background: linear-gradient(to right, rgb(127, 78, 230), rgb(122, 86, 198));
+}
+
+li{
+  margin-right: 28px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: rgb(150, 69, 221);
+  color: white;
+  list-style: none;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+
+li:hover{
+  background-color: rgb(43, 15, 131);
+  transition: .4s;
+}
